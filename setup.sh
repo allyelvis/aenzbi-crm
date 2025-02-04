@@ -47,9 +47,9 @@ foreach (array('contacts', 'deals', 'products', 'invoices', 'reports') as \$modu
 echo "<?php
 // database_connection.php
 \$servername = 'localhost'; // Replace with your DB server
-\$username = 'aenzbi_'; // Replace with your DB username
-\$password = 'aenzbi_password'; // Replace with your DB password
-\$dbname = 'your_crm_db';    // Replace with your DB name
+\$username = 'user'; // Replace with your DB username
+\$password = 'password1'; // Replace with your DB password
+\$dbname = 'aenzbicrm';    // Replace with your DB name
 
 // Create connection
 \$conn = new mysqli(\$servername, \$username, \$password, \$dbname);
